@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    html:100%
+}
+body{
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#container{
+    color:silver
+}
+.dig{
+    font-size: 8rem;
+    font-weight: bold;
+}
+.txt{
+    font-size:3rem;
+    font-weight: bold
+}
+#btn-con{
+    margin-top: 4rem;
+    text-align: center;
+}
+.btn{
+    padding:1.2rem 2rem;
+    font-size:1.4rem;
+    color:aliceblue;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+#start{
+    background-color:forestgreen;
+    margin-right: 0.5rem;
+}
+#stop{
+    background-color: red;
+    margin-right: 0.5rem;
+}
+#reset{
+    background-color: rgb(38, 36, 36);
+}
+@media screen and (max-width:777px) {
+    .dig{
+        font-size: 6rem;
+        font-weight: bold;
+    }
+    .txt{
+        font-size:2.5rem;
+        font-weight: bold
+    }
+}
+@media screen and (max-width:633px) {
+    .dig{
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    .txt{
+        font-size:2rem;
+        font-weight: bold
+    }
+}
+@media screen and (max-width:500px) {
+    html{
+        font-size: 75%;
+    }
+}
+@media screen and (max-width:318px) {
+    html{
+        font-size: 65%;
+    }
+}
+@media screen and (max-width:278px) {
+    html{
+        font-size: 58%;
+    }
+}
+@media screen and (max-width:248px) {
+    html{
+        font-size: 55%;
+    }
+
+}
+@media screen and (max-width:242px) {
+    html{
+        font-size: 50%;
+    }
+    
+}
